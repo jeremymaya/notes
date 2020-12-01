@@ -1,7 +1,5 @@
 # Object-Oriented Fundamentals
 
-Author: Kyungrae Kim
-
 ---
 
 ## Object-Oriented Thinking
@@ -68,3 +66,5 @@ Although writing code in object oriented approach may feel bloated and way beyon
 ---
 
 ## References
+
+* [LinkedIn Learning - Programming Foundations: Object-Oriented Design](https://www.linkedin.com/learning/programming-foundations-object-oriented-design-3/object-oriented-thinking)
