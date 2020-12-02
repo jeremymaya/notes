@@ -35,6 +35,28 @@ Although writing code in object oriented approach may feel bloated and way beyon
 
 ## Objects
 
+The idea behind object-oriented computing is that it makes thinking about and discussing programming similar to thinking about the real world.
+
+All objects have:
+
+* Identity - self-contained so it has its own identity separate from other objects
+* Attributes - describe its current state
+* Behaviors - the things it can do
+
+The idea of an object extends further to describe __non-tangible__ things too. Like a date, a timer, or a bank account.
+
+Objects == Noun (can you put "the" in front of it?)
+
+* Things
+* People
+* Places
+* Ideas
+* Concepts
+
+Whereas,
+
+Behaviors == Verbs
+
 ---
 
 ## Classes
