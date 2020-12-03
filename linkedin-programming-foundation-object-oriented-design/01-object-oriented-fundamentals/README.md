@@ -103,13 +103,21 @@ The four fundamental ideas in object-oriented programming when creating classes:
 * Inheritance
 * Encapsulation
 
-Abstraction means we focus on the essential qualities of something rather than one specific example. By using abstraction, we automatically discard what's unimportant or irrelevant.
+**Abstraction** means we focus on the essential qualities of something rather than one specific example. By using abstraction, we automatically discard what's unimportant or irrelevant.
 
 It should be what should a person class look like for __this application__? Instead of what does a person class look like?
 
 ---
 
 ## Encapsulation
+
+**Encapsulation** is about containing the elements of an object in order to keep them together and protect them by restricting access to some of the object's components.
+
+One of the principles of encapsulation is called `black boxing` which an object should not make anything about itself available except what is absolutely necessary for other parts of the application to work.
+
+One of the main benefits with object orientation is that it allows us to more safely change the way the object works without changing the rest of the application. __It's about reducing dependencies__ between different parts of the application. The change in one place won't cause a domino effect and require multiple changes elsewhere.
+
+The general rule is to encapsulate as much as possible.
 
 ---
 
