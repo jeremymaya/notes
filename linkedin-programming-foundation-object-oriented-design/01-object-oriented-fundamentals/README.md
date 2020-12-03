@@ -61,6 +61,37 @@ Behaviors == Verbs
 
 ## Classes
 
+A class is the detailed description, the definition, the template of what an object will be.
+
+### Class vs Object
+
+3 components of a class in object-oriented programming:
+
+* Name (type)
+* Attributes (properties)
+* Behaviors (operations)
+
+Class != Object
+
+We use class to **instantiate** objects (every object is an instant of a class). Each of the instances, each object has its own data, its own identity, independent from other objects.
+
+### Method vs Function
+
+| Method | Function |
+|:-|:-|
+| A program procedure that can return a value | A program procedure that can return a value |
+|| Defined as part of a class |
+|| Can only access data known to its object|
+
+### Frameworks and Libraries
+
+Frameworks and Libraries are a collection of predefined classes for a language.
+
+* Java Class Library for Java
+* .NET Framework for C# and Visual Basic .NET
+* C++ Standard Library for C++
+* The Standard Library for Ruby and Python
+
 ---
 
 ## Abstraction
