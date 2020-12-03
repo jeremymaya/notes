@@ -96,6 +96,17 @@ Frameworks and Libraries are a collection of predefined classes for a language.
 
 ## Abstraction
 
+The four fundamental ideas in object-oriented programming when creating classes: `APIE`
+
+* Abstraction
+* Polymorphism
+* Inheritance
+* Encapsulation
+
+Abstraction means we focus on the essential qualities of something rather than one specific example. By using abstraction, we automatically discard what's unimportant or irrelevant.
+
+It should be what should a person class look like for __this application__? Instead of what does a person class look like?
+
 ---
 
 ## Encapsulation
