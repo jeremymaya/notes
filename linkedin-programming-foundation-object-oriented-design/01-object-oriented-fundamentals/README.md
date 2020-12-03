@@ -103,7 +103,10 @@ The four fundamental ideas in object-oriented programming when creating classes:
 * Inheritance
 * Encapsulation
 
-**Abstraction** means we focus on the essential qualities of something rather than one specific example. By using abstraction, we automatically discard what's unimportant or irrelevant.
+Abstraction
+
+* Focus on the essential qualities of something rather than one specific example
+* Discard what's unimportant or irrelevant
 
 It should be what should a person class look like for __this application__? Instead of what does a person class look like?
 
@@ -111,7 +114,10 @@ It should be what should a person class look like for __this application__? Inst
 
 ## Encapsulation
 
-**Encapsulation** is about containing the elements of an object in order to keep them together and protect them by restricting access to some of the object's components.
+Encapsulation is about containing the elements of an object
+
+* Keep the elements of an object together and protect them
+* Restricts access to some of the object's components
 
 One of the principles of encapsulation is called `black boxing` which an object should not make anything about itself available except what is absolutely necessary for other parts of the application to work.
 
@@ -122,6 +128,47 @@ The general rule is to encapsulate as much as possible.
 ---
 
 ## Inheritance
+
+Inheritance
+
+* Base a new object or class on an existing one
+* Inherit the existing attributes and methods
+* Great for of code reuse
+
+```text
+                                      +-----------------+
+                                      |     Person      |                     Superclass
+                                      |-----------------|                     (Parent class)
+                                      | name            |                     (Base class)
+                                      | phone           |
+                                      | address         |
+                                      |-----------------|
+                                      | updateContact() |
+                                      +-----------------+
+                                          ^         ^
+                                          |         |
+"Customer inherits from Person"           |         |
+                                          |         |
+                                          |         |
+                    +------------------------+  +------------------------+
+                    |        Customer        |  |        Employee        |    Subclass
+                    |------------------------|  |------------------------|    (Child class)
+                    | (Everything in Person) |  | (Everything in Person) |    (Derived class)
+                    | customerID             |  | employeeID()           |
+                    | purchase()             |  | promote()              |
+                    +------------------------+  | retire()               |
+                                                +------------------------+
+```
+
+* `Customer` class automatically gets everything in the `Person` class.
+* Any additional attributes, and methods unique to `Customer` and `Employee` classes can be added
+* A change in a super class will automatically filter down and effect all of the subclasses
+
+### Multiple Inheritance vs Single Inheritance
+
+**Multiple inheritance** inherits from more then one super class (Python, C++).
+
+However, it's much more common to see **single inheritance** where a subclass only inherits from one parent or superclass (Java, C#, Swift, and Ruby).
 
 ---
 
