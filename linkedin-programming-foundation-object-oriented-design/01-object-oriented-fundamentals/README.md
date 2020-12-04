@@ -228,9 +228,64 @@ brew(coffee, tea, water)  --> cupOfSomething
 
 ## Analysis, Design, and Programming
 
+To develop any piece of software, you need to do three things:
+
+1. Analysis - understand your problem
+   * What do you need to do?
+   * What's the problem you're trying to solve?
+2. Design - plan your solution
+   * How you're going to do it?
+3. Program - build it
+
+### Five-step Object Oriented Analysis and Design Process
+
+1. Gather requirements
+2. Describe the application
+3. Identify the main objects
+4. Describe the interactions
+5. Create a class diagram
+
 ---
 
 ## Unified Modeling Language (UML)
+
+Unified Modeling Language (UML) is a standardized notation for diagrams to visualize object-oriented systems.
+
+UML != programming language - it is a graphical notation for drawing diagrams to visualize object oriented systems.
+
+Class Diagram
+
+```text
+              +----------------+
+    Name  --> |   StarCookie   |
+              |----------------|
+              | weight         |
+Attribute --> | color          |
+              | icing          |
+              |----------------|
+Behaviors --> | decorate()     |
+              | consume()      |
+              +----------------+
+```
+
+There are different types of diagrams:
+
+* Structural diagrams
+  * Class diagram
+  * Component diagram
+  * Deployment diagram
+  * Object diagram
+  * Package diagram
+  * Profile diagram
+
+* Behavioral diagrams
+  * Use case diagram
+  * Activity diagram
+  * State machine diagram
+  * Sequence diagram
+  * Communication diagram
+  * Interaction overview diagram
+  * Timing diagram
 
 ---
 
@@ -238,4 +293,3 @@ brew(coffee, tea, water)  --> cupOfSomething
 
 * [LinkedIn Learning - Programming Foundations: Object-Oriented Design](https://www.linkedin.com/learning/programming-foundations-object-oriented-design-3/object-oriented-thinking)
 * [edpresso - Overloading vs. Overriding](https://www.educative.io/edpresso/overloading-vs-overriding)
-
