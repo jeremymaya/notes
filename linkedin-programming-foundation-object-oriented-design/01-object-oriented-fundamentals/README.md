@@ -174,6 +174,56 @@ However, it's much more common to see **single inheritance** where a subclass on
 
 ## Polymorphism
 
+Multiple Forms of Polymorphism
+
+* Dynamic (Run-Time) Polymorphism
+* Static (Compile-Time) Polymorphism
+
+Polymorphism can be implemented using
+
+* Inheritance
+* Abstract classes
+* Interfaces
+
+### Dynamic Polymorphism
+
+Uses **method overriding** which uses the same interface for methods on different types of objects.
+
+Overriding occurs when two methods have the same method name and parameters. One of the methods is in the parent class, and the other is in the child class. Overriding allows a child class to provide the specific implementation of a method that is already present in its parent class.​
+
+```text
+                                            +------------------+
+                                            | BasicCoffeeMaker |
+                                            |------------------|
+                                            | size             |
+                                            |------------------|
+                                            | brew()           |
+                                            | pour()           |
+                                            +------------------+
+                                                      ^
+                                                      |
+                                      +----------------------------------+
+                                      |            FrenchPress           |
+                                      |----------------------------------|
+                                      | (Everything in BasicCoffeeMaker) |
+                          Overriding  | brew()                           |
+                                      +----------------------------------+
+```
+
+The benefit of dynamic polymorphism here is that it enables any form of coffee maker to be used as long as it has a brew method that takes coffee grounds and water as inputs and returns a cup of coffee.
+
+### Static Polymorphism
+
+Uses **method overloading** which implements multiple methods with the same name, but different parameters.
+
+Overloading occurs when two or more methods in one class have the same method name but different parameters.
+
+```text
+brew(coffee, water)       --> cupOfCoffee
+brew(tea, water)          --> cupOfTea
+brew(coffee, tea, water)  --> cupOfSomething
+```
+
 ---
 
 ## Analysis, Design, and Programming
@@ -187,3 +237,5 @@ However, it's much more common to see **single inheritance** where a subclass on
 ## References
 
 * [LinkedIn Learning - Programming Foundations: Object-Oriented Design](https://www.linkedin.com/learning/programming-foundations-object-oriented-design-3/object-oriented-thinking)
+* [edpresso - Overloading vs. Overriding](https://www.educative.io/edpresso/overloading-vs-overriding)
+
