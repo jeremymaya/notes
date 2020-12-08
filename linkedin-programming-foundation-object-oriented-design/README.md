@@ -26,7 +26,7 @@ Notes taken during Programming Foundations: Object-Oriented Design from LinkedIn
 
 1. [Object-oriented Fundamentals](./01-object-oriented-fundamentals)
 2. [Requirements](./02-requirements)
-3. Use Cases and User Stories
+3. [Use Cases and User Stories](./03-use-cases-and-user-stories)
 4. Domain Modeling
 5. Class Diagrams
 6. Inheritance and Compositions
