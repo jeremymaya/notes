@@ -22,7 +22,7 @@ The object orientated programming is NOT a language itself, instead, object orie
 * A program is written as a long series of operations to execute
 * Can be organized into named functions or sub-routines to make the code modular and maintainable
 
-Advantage of the procedural approach includes quick and easier way ot completing a tasks. However, it is not great for scalability and changes in the future.
+Advantage of the procedural approach includes quick and easier way of completing a tasks. However, it is not great for scalability and changes in the future.
 
 ### Object Oriented Programming Languages
 
@@ -80,8 +80,8 @@ We use class to **instantiate** objects (every object is an instant of a class).
 | Method | Function |
 |:-|:-|
 | A program procedure that can return a value | A program procedure that can return a value |
-|| Defined as part of a class |
-|| Can only access data known to its object |
+| Defined as part of a class | |
+| Can only access data known to its object | |
 
 ### Frameworks and Libraries
 
