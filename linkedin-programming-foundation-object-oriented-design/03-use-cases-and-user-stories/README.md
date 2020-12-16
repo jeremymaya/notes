@@ -235,7 +235,6 @@ As an astronaut, I want to heat up my food so that, I can eat a warm meal.
 As a nutritionist, I want to see what astronauts eat, so that I can monitor their diet. 
 ```
 
-
 ### What to Avoid When Writing User Stories
 
 Usee stories should NOT include
