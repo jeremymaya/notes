@@ -81,7 +81,7 @@ We use class to **instantiate** objects (every object is an instant of a class).
 |:-|:-|
 | A program procedure that can return a value | A program procedure that can return a value |
 || Defined as part of a class |
-|| Can only access data known to its object|
+|| Can only access data known to its object |
 
 ### Frameworks and Libraries
 
