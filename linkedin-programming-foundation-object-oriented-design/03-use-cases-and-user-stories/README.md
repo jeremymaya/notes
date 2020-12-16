@@ -217,6 +217,41 @@ Drawing the first use case diagram:
 
 ## User Stories
 
+**User stories** are another written format for describing parts of an application but they are __shorter and simpler than a use case.__
+
+A user story describes a single small scenario from a user's perspective, focusing on their goal, what they want to do and why rather than focusing on the system - It focuses on one specific goal of one specific user for a particular reason.
+
+```text
+As a (type of user) I want (goal) so that (reason)*
+
+* optional - it provides context on how this application will be used
+```
+
+Use stories examples:
+
+```text
+As an astronaut, I want to heat up my food so that, I can eat a warm meal.
+
+As a nutritionist, I want to see what astronauts eat, so that I can monitor their diet. 
+```
+
+
+### What to Avoid When Writing User Stories
+
+Usee stories should NOT include
+
+* Descriptions of the user interface
+* Detail alternate paths or exceptions
+* Any technical information
+
+```text
+BAD: As an astronaut, I want to press a button to delay when my food gets cooked, so that it will be ready later.
+
+                                        vs.
+
+GOOD: As an astronaut, I want to schedule when I heat my food, so it will be ready later. 
+```
+
 ### User Stories vs Use Cases
 
 Use cases and user stories are different things - they have different format and servers different purpose.
