@@ -71,6 +71,44 @@ The benefit of detailing class relationships makes it easier to identify which o
 
 ## Identifying Class Responsibilities
 
+Ask the question of from which class should a behavior live, or whose responsibility it is.It should not be showing who initiates the actions but where the responsibility lies in performing them. **An object should be responsible for itself**.
+
+### Steps to Identifying Class Responsibilities
+
+```text
++--------+      +---------+      +-----------+
+| Player |------| Astroid |------| Direction |
++--------+      +---------+      +-----------+
+                    move
+               detect collision
+                     |
+                  +------+       +-----------+
+                  | Area |-------| Spaceship |
+                  +------+       +-----------+
+                                     spawn
+                                      move
+                                       |
+                                  +---------+      +------+
+                                  | Missile |------| Path |
+                                  +---------+      +------+
+                                     spawn
+                                      move
+                               detect out-of-bounds
+```
+
+1. To identify responsibilities, create a list of potential objects by looking for verbs and verb phrases from the use cases and user stories.
+    * spawn enemy spaceship
+    * files toward player
+    * steers asteroid
+    * avoid missile path
+    * flies past player
+    * disappear offscreen
+2. Distribute the list of verb phrases amongst the conceptual objects
+
+### God Object
+
+In object oriented design when an object that knows too much or does too much, it is called a **god object**. Responsibilities should be distributed between different objects and not stored in one master object. An object should be responsible for itself, as much as possible for maintainability and future updates.
+
 ---
 
 ## CRC Cards
