@@ -113,6 +113,65 @@ In object oriented design when an object that knows too much or does too much, i
 
 ## CRC Cards
 
+CRC stands for:
+
+* **C**lass
+* **R**esponsibilities
+* **C**ollaboration
+
+**CRC cards** are drawn on index cards and they contain the same information as the conceptual object diagram but in a different format.
+
+Each CRC cards represents one class with three sections.
+
+* Class name
+* Responsibilities of the class - things it needs to take cares of
+* Collaborators of the class - the other classes it interacts with
+
+Sometimes, it is  referred to as CRH card:
+
+* **C**omponents
+* **R**esponsibilities
+* **H**elper
+
+### CRC Card Template
+
+```text
++----------------------------------------+
+| Class Name                             |
+|========================================|
+|    Responsibilities    | Collaborators |
+|------------------------+---------------|
+|                        |               |
+|------------------------+---------------|
+|                        |               |
+|------------------------+---------------|
+|                        |               |
++----------------------------------------+
+```
+
+### Missile Class CRC Card Example
+
+```text
++----------------------------------------+
+| Missile                                |
+|========================================|
+| Fly through space      | Spaceship     |
+|------------------------+---------------|
+| Destroy asteroid       | Area          |
+|------------------------+---------------|
+| Disappear offscreen    | Asteroid      |
+|------------------------+---------------|
+|                        |               |
++----------------------------------------+
+```
+
+### The Benefit of Using Physical Index Cards
+
+* Being able to move related cards together
+  * It helps figuring out the natural collaborators and the way these objects interact
+* Enforces a constraint
+  * If more than one CRC card is needed for a single class, that's a clue that the class has too much responsibility and needs to be redesigned
+
 ---
 
 ## References
