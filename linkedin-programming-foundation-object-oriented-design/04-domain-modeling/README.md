@@ -8,12 +8,12 @@ After completing analysis and use cases, the next is to create a **conceptual mo
 
 **Conceptual Model** represents important objects and the relationship between them.
 
-### Steps to Identify the Objects
+### Steps to Identifying the Objects
 
 ```text
 "Dodge" Use Case Scenario:
 
-System spawns enemy spaceship on play area. Spaceship flies towards player asteroid and fires missile at it. Player steers asteroid in direction to avoid missile path. Missile flies past player asteroid and disappear offscreen.
+System spawns enemy spaceship on play area. Spaceship flies towards player astroid and fires missile at it. Player steers astroid in direction to avoid missile path. Missile flies past player astroid and disappear offscreen.
 ```
 
 1. To identify objects, go through all of the use cases, user stories and any other written requirements to pick out all of the **nouns**.
@@ -21,13 +21,13 @@ System spawns enemy spaceship on play area. Spaceship flies towards player aster
     * ~~System~~
     * Spaceship
     * Area
-    * Asteroid
+    * Astroid
     * Missile
     * ~~It~~
-        * Refers to the asteroid
+        * Refers to the Astroid
     * Player
     * Direction
-        * When it doubt, keep it - attribute of Asteroid vs. class of Direction
+        * When it doubt, keep it - attribute of Astroid vs. class of Direction
     * Path
     * ~~Offscreen~~
         * Concept of area
@@ -35,6 +35,37 @@ System spawns enemy spaceship on play area. Spaceship flies towards player aster
 ---
 
 ## Identifying Class Relationships
+
+The benefit of detailing class relationships makes it easier to identify which objects interact with each other - meaning which objects have **behaviors** that affect other objects.
+
+### Steps to Identifying Class Relationships
+
+```text
++--------+    Steers    +---------+              +-----------+
+| Player |--------------| Astroid |--------------| Direction |
++--------+              +---------+              +-----------+
+                         /                            |
+                        /                             |
+                       /                              |
+                  +------+       Contains       +-----------+
+                  | Area |----------------------| Spaceship |
+                  +------+ 1               1..* +-----------+
+                      \ Contains         Fires  /
+                       '--------.     .--------'
+                                |     |
+                              +---------+    Follows   +------+
+                              | Missile |--------------| Path |
+                              +---------+              +------+
+```
+
+1. Draw a line between each object that has a relationship/interaction
+    * A player steers the astroid
+    * The area contains the astroid, spaceship, and missile
+    * The missile follows a path
+    * The spaceship fires a missile
+    * The spaceship and astroid travel in a direction
+2. Draw a optional symbols - Is it interesting or important enough to need to be put on the diagram?
+    * The game area can contain multiple spaceships
 
 ---
 
