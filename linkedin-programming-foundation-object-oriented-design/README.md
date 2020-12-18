@@ -6,6 +6,18 @@ Notes taken during Programming Foundations: Object-Oriented Design from LinkedIn
 
 ---
 
+## Table of Contents
+
+1. [Object-oriented Fundamentals](01-object-oriented-fundamentals/README.md)
+2. [Requirements](02-requirements/README.md)
+3. [Use Cases and User Stories](03-use-cases-and-user-stories/README.md)
+4. [Domain Modeling](04-domain-modeling/README.md)
+5. [Class Diagrams](05-class-diagrams/README.md)
+6. [Inheritance and Compositions](06-inheritance-and-composition/README.md)
+7. Software Development
+
+---
+
 ## Learning Objectives
 
 * Object-oriented basics: objects, classes, and more
@@ -19,18 +31,6 @@ Notes taken during Programming Foundations: Object-Oriented Design from LinkedIn
 * Using abstract classes
 * Working with inheritance
 * Developing software with object-oriented design principles
-
----
-
-## Table of Contents
-
-1. [Object-oriented Fundamentals](01-object-oriented-fundamentals/README.md)
-2. [Requirements](02-requirements/README.md)
-3. [Use Cases and User Stories](03-use-cases-and-user-stories/README.md)
-4. [Domain Modeling](04-domain-modeling/README.md)
-5. [Class Diagrams](05-class-diagrams/README.md)
-6. Inheritance and Compositions
-7. Software Development
 
 ---
 
