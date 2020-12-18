@@ -275,6 +275,91 @@ Destructors are typically used if you have an object that's holding a resource. 
 
 ## Static Attributes and Methods
 
+### Static Attributes
+
+Static Variables/Attributes are:
+
+* Variable that is shared across all objects in a class
+* Also called a shared variable or a class variable
+
+Static variable != Global variable
+
+It is global amongst the specific class but NOT the rest of the program - **it is shared within the class but still encapsulated**.
+
+To create static variable at the class level, add the keyword `static` to a variable.
+
+```c#
+public class Spaceship()
+{
+    // instance variables
+    public string callSign;
+    private int shieldStrength;
+
+    // class variables
+    public static float toughness;
+
+    // other codes omitted
+}
+```
+
+To access static variable, we use the class name to access the static variable.
+
+```c#
+Spaceship myShip = new Spaceship();
+
+// access CallSign variable from myShip object
+var callSign = myShip.CallSign;
+
+// access Toughness from Spaceship class
+var toughness = Spaceship.Toughness;
+```
+
+### Static Methods
+
+To create static methods at the class level, add the keyword `static` to a method declaration.
+
+```c#
+public class Spaceship()
+{
+    // instance variables omitted
+ 
+    // class variables
+    public static float Toughness;
+
+    // public static method
+    public static IncreaseDifficulty(float t)
+    {
+        Toughness += t;
+    }
+
+    // other codes omitted
+}
+```
+
+Same as static variables, static methods exist at the class level. Therefore, static methods are called using the class name, not the name of an instance.
+
+```c#
+Spaceship.IncreaseDifficulty(0.2);
+```
+
+In UML diagrams, static method of a class are typically denoted with an underline.
+
+```text
++----------------------------------+
+|             Spaceship            |
+|----------------------------------|
+| + CallSign: String               |
+| - ShieldStrength: Integer        |
+| + Toughness                      |
+| ''''''''''''                     |
+|----------------------------------|
+| + FireMissile(): String          |
+| + ReducedShield(Integer)         |
+| + IncreaseDifficulty(Float)      |
+| '''''''''''''''''''''''''''      |
++----------------------------------+
+```
+
 ---
 
 ## References
