@@ -225,6 +225,54 @@ A basic constructor method is represented as a method with the same name as the 
 
 ---
 
+## Class with Multiple Constructor
+
+**Overloading** allows most languages to create multiple constructor method. **It allows a class to have more than one method with the same name, but different sets of input parameters.**
+
+Overloading multiple constructors gives us flexibility to pass in information when actually creating the object.
+
+```c#
+public class Spaceship()
+{
+    // instance variable
+    public string CallSign;
+    private int ShieldStrength;
+
+    // constructor
+    public Spaceship()
+    {
+        name = "The nameless ship";
+        ShieldStrength = 100;
+    }
+
+    // overload constructor
+    public Spaceship(string name)
+    {
+        CallSign = name;
+        ShieldStrength = 200;
+    }
+
+    // method
+    public string FireMissile()
+    {
+        return "Pew";
+    }
+
+    public void ReduceShield(int amount)
+    {
+        ShieldStrength -= amount;
+    }
+}
+```
+
+### Destructor
+
+**Destructor** or **Finalizer** languages that use garbage collection is a special method that gets called when the object is destroyed. It is a method that gets called when an object is no longer needed and is being disposed of.
+
+Destructors are typically used if you have an object that's holding a resource. For example, when a document open on the file system or it's connected to a database, the object must release its connection to the resources before it's destroyed - Destructor takes care of this process.
+
+---
+
 ## Static Attributes and Methods
 
 ---
