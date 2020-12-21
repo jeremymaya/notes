@@ -1,5 +1,17 @@
 # Inheritance and Composition
 
+[<- Back to Programming Foundations: Object-Oriented Design](../README.md)
+
+## Table of Contents
+
+* [Identifying Inheritance Situation](#identifying-inheritance-situation)
+* [Using Inheritance](#using-inheritance)
+* [Abstract and Concrete Class](#abstract-and-concrete-class)
+* [Interfaces](#interfaces)
+* [Aggregation](#aggregation)
+* [Composition](#composition)
+* [References](#references)
+
 ---
 
 ## Identifying Inheritance Situation

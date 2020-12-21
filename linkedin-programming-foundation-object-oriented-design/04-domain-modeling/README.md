@@ -1,5 +1,15 @@
 # Domain Modeling
 
+[<- Back to Programming Foundations: Object-Oriented Design](../README.md)
+
+## Table of Contents
+
+* [Identifying the Objects](#identifying-the-objects)
+* [Identifying Class Relationships](#identifying-class-relationships)
+* [Identifying Class Responsibilities](#identifying-class-responsibilities)
+* [CRC Cards](#crc-cards)
+* [References](#references)
+
 ---
 
 ## Identifying the Objects

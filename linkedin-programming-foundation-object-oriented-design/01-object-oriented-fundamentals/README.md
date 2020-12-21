@@ -1,5 +1,20 @@
 # Object-Oriented Fundamentals
 
+[<- Back to Programming Foundations: Object-Oriented Design](../README.md)
+
+## Table of Contents
+
+* [Object-Oriented Thinking](#object-oriented-thinking)
+* [Objects](#objects)
+* [Classes](#classes)
+* [Abstraction](#abstraction)
+* [Encapsulation](#encapsulation)
+* [Inheritance](#inheritance)
+* [Polymorphism](#polymorphism)
+* [Analysis, Design, and Programming](#analysis-design-and-programming)
+* [Unified Modeling Language (UML)](#unified-modeling-language)
+* [References](#references)
+
 ---
 
 ## Object-Oriented Thinking
@@ -247,7 +262,7 @@ To develop any piece of software, you need to do three things:
 
 ---
 
-## Unified Modeling Language (UML)
+## Unified Modeling Language
 
 Unified Modeling Language (UML) is a standardized notation for diagrams to visualize object-oriented systems.
 
