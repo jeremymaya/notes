@@ -241,7 +241,7 @@ brew(coffee, tea, water)  --> cupOfSomething
 
 ---
 
-## Analysis Design and Programming
+## Analysis, Design, and Programming
 
 To develop any piece of software, you need to do three things:
 
