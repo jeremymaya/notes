@@ -4,13 +4,13 @@
 
 ## Table of Contents
 
-* [Identifying Inheritance Situation](##Identifying-Inheritance-Situation)
-* [Using Inheritance](##Using-Inheritance)
-* [Abstract and Concrete Class](##Abstract-and-Concrete-Class)
-* [Interfaces](##Interfaces)
-* [Aggregation](##Aggregation)
-* [Composition](##Composition)
-* [References](##References)
+* [Identifying Inheritance Situation](#identifying-inheritance-situation)
+* [Using Inheritance](#using-inheritance)
+* [Abstract and Concrete Class](#abstract-and-concrete-class)
+* [Interfaces](#interfaces)
+* [Aggregation](#aggregation)
+* [Composition](#composition)
+* [References](#references)
 
 ---
 

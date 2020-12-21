@@ -9,11 +9,11 @@
 * [Classes](#classes)
 * [Abstraction](#abstraction)
 * [Encapsulation](#encapsulation)
-* [Inheritance](#Inheritance)
-* [Polymorphism](#Polymorphism)
-* [Analysis, Design, and Programming](#Analysis,-Design,-and-Programming)
-* [Unified Modeling Language (UML)](#Unified-Modeling-Language-(UML))
-* [References](#References)
+* [Inheritance](#inheritance)
+* [Polymorphism](#polymorphism)
+* [Analysis, Design, and Programming](#analysis-design-and-programming)
+* [Unified Modeling Language (UML)](#unified-modeling-language)
+* [References](#references)
 
 ---
 
@@ -241,7 +241,7 @@ brew(coffee, tea, water)  --> cupOfSomething
 
 ---
 
-## Analysis, Design, and Programming
+## Analysis Design and Programming
 
 To develop any piece of software, you need to do three things:
 
@@ -262,7 +262,7 @@ To develop any piece of software, you need to do three things:
 
 ---
 
-## Unified Modeling Language (UML)
+## Unified Modeling Language
 
 Unified Modeling Language (UML) is a standardized notation for diagrams to visualize object-oriented systems.
 

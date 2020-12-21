@@ -4,11 +4,11 @@
 
 ## Table of Contents
 
-* [Identifying the Objects](##Identifying-the-Objects)
-* [Identifying Class Relationships](##Identifying-Class-Relationships)
-* [Identifying Class Responsibilities](##Identifying-Class-Responsibilities)
-* [CRC Cards](##CRC-Cards)
-* [References](##References)
+* [Identifying the Objects](#identifying-the-objects)
+* [Identifying Class Relationships](#identifying-class-relationships)
+* [Identifying Class Responsibilities](#identifying-class-responsibilities)
+* [CRC Cards](#crc-cards)
+* [References](#references)
 
 ---
 

@@ -4,12 +4,12 @@
 
 ## Table of Contents
 
-* [Use Cases](##Use-Cases)
-* [Identifying the Actors](##Identifying-the-Actors)
-* [Identifying the Scenarios](##Identifying-the-Scenarios)
-* [Diagramming Use Cases](##Diagramming-Use-Cases)
-* [User Stories](##User-Stories)
-* [References](##References)
+* [Use Cases](#use-cases)
+* [Identifying the Actors](#identifying-the-actors)
+* [Identifying the Scenarios](#identifying-the-scenarios)
+* [Diagramming Use Cases](#diagramming-use-cases)
+* [User Stories](#user-stories)
+* [References](#references)
 
 ---
 

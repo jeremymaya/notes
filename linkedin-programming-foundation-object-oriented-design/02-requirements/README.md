@@ -4,9 +4,9 @@
 
 ## Table of Contents
 
-* [Defining Requirements](##Defining-Requirements)
-* [FURPS+ Requirements](##FURPS+-Requirements)
-* [References](##References)
+* [Defining Requirements](#defining-requirements)
+* [FURPS+ Requirements](#furps-requirements)
+* [References](#references)
 
 ---
 
@@ -28,7 +28,7 @@ Focus on capturing the __absolute minimum__ set of requirements when defining re
 
 ---
 
-## FURPS+ Requirements
+## FURPS Requirements
 
 `FURPS` serves as a checklist of several key qualities to consider when determining requirements.
 

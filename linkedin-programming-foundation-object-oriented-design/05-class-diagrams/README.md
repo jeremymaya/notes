@@ -4,13 +4,13 @@
 
 ## Table of Contents
 
-* [Creating Class Diagram: Attributes](##Creating-Class-Diagram:-Attributes)
-* [Creating Class Diagram: Behaviors](##Creating-Class-Diagram:-Behaviors)
-* [Converting Class Diagram Into Code](##Converting-Class-Diagram-Into-Code)
-* [Instantiating Classes](##Instantiating-Classes)
-* [Class with Multiple Constructor](##Class-with-Multiple-Constructor)
-* [Static Attributes and Methods](##Static-Attributes-and-Methods)
-* [References](##References)
+* [Creating Class Diagram: Attributes](#creating-class-diagram-attributes)
+* [Creating Class Diagram: Behaviors](#creating-class-diagram-behaviors)
+* [Converting Class Diagram Into Code](#converting-class-diagram-into-code)
+* [Instantiating Classes](#instantiating-classes)
+* [Class with Multiple Constructor](#class-with-multiple-constructor)
+* [Static Attributes and Methods](#static-attributes-and-methods)
+* [References](#references)
 
 ---
 
