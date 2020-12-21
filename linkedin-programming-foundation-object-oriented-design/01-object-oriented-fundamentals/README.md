@@ -136,28 +136,28 @@ Inheritance
 * Great for of code reuse
 
 ```text
-                                      +-----------------+
-                                      |     Person      |                     Superclass
-                                      |-----------------|                     (Parent class)
-                                      | name            |                     (Base class)
-                                      | phone           |
-                                      | address         |
-                                      |-----------------|
-                                      | updateContact() |
-                                      +-----------------+
-                                          ^         ^
-                                          |         |
-"Customer inherits from Person"           |         |
-                                          |         |
-                                          |         |
-                    +------------------------+  +------------------------+
-                    |        Customer        |  |        Employee        |    Subclass
-                    |------------------------|  |------------------------|    (Child class)
-                    | (Everything in Person) |  | (Everything in Person) |    (Derived class)
-                    | customerID             |  | employeeID()           |
-                    | purchase()             |  | promote()              |
-                    +------------------------+  | retire()               |
-                                                +------------------------+
+                                +-----------------+
+                                |     Person      |    Superclass
+                                |-----------------|    (Parent class)
+                                | name            |    (Base class)
+                                | phone           |
+                                | address         |
+                                |-----------------|
+                                | updateContact() |
+                                +-----------------+
+                                    ^         ^
+                                    |         |
+"Customer inherits from Person"     |         |
+                                    |         |
+                                    |         |
+              +------------------------+  +------------------------+
+              |        Customer        |  |        Employee        |    Subclass
+              |------------------------|  |------------------------|    (Child class)
+              | (Everything in Person) |  | (Everything in Person) |    (Derived class)
+              | customerID             |  | employeeID()           |
+              | purchase()             |  | promote()              |
+              +------------------------+  | retire()               |
+                                          +------------------------+
 ```
 
 * `Customer` class automatically gets everything in the `Person` class.
@@ -192,22 +192,22 @@ Uses **method overriding** which uses the same interface for methods on differen
 Overriding occurs when two methods have the same method name and parameters. One of the methods is in the parent class, and the other is in the child class. Overriding allows a child class to provide the specific implementation of a method that is already present in its parent class.​
 
 ```text
-                                            +------------------+
-                                            | BasicCoffeeMaker |
-                                            |------------------|
-                                            | size             |
-                                            |------------------|
-                                            | brew()           |
-                                            | pour()           |
-                                            +------------------+
-                                                      ^
-                                                      |
-                                      +----------------------------------+
-                                      |            FrenchPress           |
-                                      |----------------------------------|
-                                      | (Everything in BasicCoffeeMaker) |
-                          Overriding  | brew()                           |
-                                      +----------------------------------+
+                  +------------------+
+                  | BasicCoffeeMaker |
+                  |------------------|
+                  | size             |
+                  |------------------|
+                  | brew()           |
+                  | pour()           |
+                  +------------------+
+                            ^
+                            |
+            +----------------------------------+
+            |            FrenchPress           |
+            |----------------------------------|
+            | (Everything in BasicCoffeeMaker) |
+Overriding  | brew()                           |
+            +----------------------------------+
 ```
 
 The benefit of dynamic polymorphism here is that it enables any form of coffee maker to be used as long as it has a brew method that takes coffee grounds and water as inputs and returns a cup of coffee.
