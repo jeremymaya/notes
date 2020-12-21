@@ -1,5 +1,7 @@
 # Programming Foundations: Object-Oriented Design
 
+[<- Back to the repository Table of Contents](../README.md)
+
 Author: Kyungrae Kim
 
 Notes taken during Programming Foundations: Object-Oriented Design from LinkedIn Learning.
@@ -14,7 +16,7 @@ Notes taken during Programming Foundations: Object-Oriented Design from LinkedIn
 4. [Domain Modeling](04-domain-modeling/README.md)
 5. [Class Diagrams](05-class-diagrams/README.md)
 6. [Inheritance and Compositions](06-inheritance-and-composition/README.md)
-7. Software Development
+7. [Software Development](07-software-development/README.md)
 
 ---
 

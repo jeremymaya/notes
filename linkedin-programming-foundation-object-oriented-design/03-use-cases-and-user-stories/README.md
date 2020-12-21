@@ -1,5 +1,16 @@
 # Use Cases and User Stories
 
+[<- Back to Programming Foundations: Object-Oriented Design](../README.md)
+
+## Table of Contents
+
+* [Use Cases](##Use-Cases)
+* [Identifying the Actors](##Identifying-the-Actors)
+* [Identifying the Scenarios](##Identifying-the-Scenarios)
+* [Diagramming Use Cases](##Diagramming-Use-Cases)
+* [User Stories](##User-Stories)
+* [References](##References)
+
 ---
 
 ## Use Cases
