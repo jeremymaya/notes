@@ -4,11 +4,11 @@
 
 ## Table of Contents
 
-* [OOP Support in Different Languages](##OOP-Support-in-Different-Languages)
-* [General Development Principles](##General-Development-Principles)
-* [Software Testing](##Software-Testing)
-* [Design Patterns](##Design-Patterns)
-* [References](##References)
+* [OOP Support in Different Languages](#oop-support-in-different-languages)
+* [General Development Principles](#general-development-principles)
+* [Software Testing](#software-testing)
+* [Design Patterns](#design-patterns)
+* [References](#references)
 
 ---
 

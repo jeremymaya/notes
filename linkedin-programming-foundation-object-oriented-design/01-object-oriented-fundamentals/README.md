@@ -4,16 +4,16 @@
 
 ## Table of Contents
 
-* [Object-Oriented Thinking](##Object-Oriented-Thinking)
-* [Objects](##Objects)
-* [Classes](##Classes)
-* [Abstraction](##Abstraction)
-* [Encapsulation](##Encapsulation)
-* [Inheritance](##Inheritance)
-* [Polymorphism](##Polymorphism)
-* [Analysis, Design, and Programming](##Analysis,-Design,-and-Programming)
-* [Unified Modeling Language (UML)](##Unified-Modeling-Language-(UML))
-* [References](##References)
+* [Object-Oriented Thinking](#object-oriented-thinking)
+* [Objects](#objects)
+* [Classes](#classes)
+* [Abstraction](#abstraction)
+* [Encapsulation](#encapsulation)
+* [Inheritance](#Inheritance)
+* [Polymorphism](#Polymorphism)
+* [Analysis, Design, and Programming](#Analysis,-Design,-and-Programming)
+* [Unified Modeling Language (UML)](#Unified-Modeling-Language-(UML))
+* [References](#References)
 
 ---
 
