@@ -52,10 +52,6 @@ Unit test are set up using a three-step pattern referred to as Arrange, Act and 
 
 ---
 
-## Create Another Test
-
----
-
 ## Refactor the Code
 
 ```c#
@@ -66,6 +62,26 @@ Above code moved to outside of `GetAnnualSalary` method so `GetHourlyWage` metho
 
 ---
 
+## Create Another Test
+
+* Individual test case can be debugged by placing a breakpoint and selecting `Debug Test`
+
+Methods can be refactored further by converting them into expression body function
+
+```c#
+public decimal GetAnnualSalary(decimal hourlyWage)
+{
+    decimal annualSalary = hourlyWage * HoursInYear;
+    return annualSalary;
+}
+
+// expression-bodied method
+public decimal GetAnnualSalary(decimal hourlyWage) => hourlyWage * HoursInYear;
+```
+
+---
+
 ## References
 
 * [LinkedIn Learning - C# Test Driven Development](https://www.linkedin.com/learning/c-sharp-test-driven-development-2)
+* [Microsoft - Expression-bodied members (C# programming guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/expression-bodied-members)
