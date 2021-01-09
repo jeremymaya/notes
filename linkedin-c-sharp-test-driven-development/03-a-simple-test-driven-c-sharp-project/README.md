@@ -43,6 +43,27 @@ Unit test are set up using a three-step pattern referred to as Arrange, Act and 
 * Act by invoking the methods on those objects
 * Assert by verifying that the action of these methods heaved as expected
 
+## Update Test to Pass
+
+* Add a new project under the same solution
+* Add a reference from the test to the newly created class library
+* Import a namespace to be tested
+* Run the test
+
+---
+
+## Create Another Test
+
+---
+
+## Refactor the Code
+
+```c#
+const int HoursInYear = 2080;
+```
+
+Above code moved to outside of `GetAnnualSalary` method so `GetHourlyWage` method can also access it later.
+
 ---
 
 ## References
