@@ -4,9 +4,9 @@
 
 ## Table of Contents
 
-* [Create a Simple Test-Driven C# Project](#create-a-simple-test-driven-c#-project)
-* [Add a Failing Test](#adding-a-failing-test)
-* [Update Test to Pass](#updating-test-to-pass)
+* [Create a Simple Test-Driven C# Project](#create-a-simple-test-driven-c-project)
+* [Add a Failing Test](#add-a-failing-test)
+* [Update Test to Pass](#update-test-to-pass)
 * [Refactor the Code](#refactor-the-code)
 * [Create Another Test](#create-another-test)
 * [References](#references)
