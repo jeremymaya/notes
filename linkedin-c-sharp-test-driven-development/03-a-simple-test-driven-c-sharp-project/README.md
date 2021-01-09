@@ -4,15 +4,16 @@
 
 ## Table of Contents
 
-* [Different Approaches to Testing](#different-approaches-to-testing)
-* [Red, Green, Refactor](#red-green-refactor)
-* [Refactor: A Deeper Look](#refactor-a-deeper-look)
-* [The Art of Testing](#the-art-of-testing)
+* [Create a Simple Test-Driven C# Project](#create-a-simple-test-driven-c#-project)
+* [Add a Failing Test](#adding-a-failing-test)
+* [Update Test to Pass](#updating-test-to-pass)
+* [Refactor the Code](#refactor-the-code)
+* [Create Another Test](#create-another-test)
 * [References](#references)
 
 ---
 
-## Create a simple test-driven C# Project
+## Create a Simple Test-Driven C# Project
 
 ### Description
 
@@ -35,7 +36,7 @@ Create the unite test first then draw the design of the program.
 
 ---
 
-## Add A Failing Test
+## Add a Failing Test
 
 Unit test are set up using a three-step pattern referred to as Arrange, Act and Assert.
 
