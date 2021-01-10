@@ -8,9 +8,9 @@ namespace Polymorphism
         public virtual string CalculateWeeklySalary(int weeklyHours, int wage)
         {
             var salary = 40 * wage;
-            string result = String.Format("\nThis ANGRY EMPLOYEE worked {0} hrs. " +
+            string result = String.Format("This ANGRY EMPLOYEE worked {0} hrs. " +
                               "Paid for 40 hrs at $ {1}" +
-                              "/hr = ${2} \n", weeklyHours, wage, salary);
+                              "/hr = ${2}", weeklyHours, wage, salary);
             Console.WriteLine("\n" + result + " \n");
             Console.WriteLine("---------------------------------------------\n");
 
@@ -23,9 +23,9 @@ namespace Polymorphism
         public override string CalculateWeeklySalary(int weeklyHours, int wage)
         {
             var salary = weeklyHours * wage;
-            string result = String.Format("\nThis HAPPY CONTRACTOR worked {0} hrs. " +
+            string result = String.Format("This HAPPY CONTRACTOR worked {0} hrs. " +
                               "Paid for {0} hrs at $ {1}" +
-                              "/hr = ${2} ", weeklyHours, wage, salary);
+                              "/hr = ${2}", weeklyHours, wage, salary);
             Console.WriteLine("\n" + result + " \n");
             Console.WriteLine("---------------------------------------------\n");
 

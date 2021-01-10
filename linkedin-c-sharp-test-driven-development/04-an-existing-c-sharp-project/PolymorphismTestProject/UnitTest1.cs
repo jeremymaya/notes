@@ -13,12 +13,12 @@ namespace PolymorphismTestProject
             // Arrange
             int weeklyHours = 55;
             int wage = 70;
-            int salary = 1;
+            int salary = 40 * wage;
             Employee e = new Employee();
 
-            string expected = String.Format("\nThis ANGRY EMPLOYEE worked {0} hrs. " +
+            string expected = String.Format("This ANGRY EMPLOYEE worked {0} hrs. " +
                               "Paid for 40 hrs at $ {1}" +
-                              "/hr = ${2} \n", weeklyHours, wage, salary);
+                              "/hr = ${2}", weeklyHours, wage, salary);
 
             // Act
             string actual = e.CalculateWeeklySalary(weeklyHours, wage);
@@ -33,12 +33,12 @@ namespace PolymorphismTestProject
             // Arrange
             int weeklyHours = 55;
             int wage = 70;
-            int salary = 1;
+            int salary = weeklyHours * wage;
             Contractor c = new Contractor();
 
-            string expected = String.Format("\nThis HAPPY CONTRACTOR worked {0} hrs. " +
+            string expected = String.Format("This HAPPY CONTRACTOR worked {0} hrs. " +
                               "Paid for {0} hrs at $ {1}" +
-                              "/hr = ${2} ", weeklyHours, wage, salary);
+                              "/hr = ${2}", weeklyHours, wage, salary);
 
             // Act
             string actual = c.CalculateWeeklySalary(weeklyHours, wage);
@@ -53,12 +53,12 @@ namespace PolymorphismTestProject
             // Arrange
             int weeklyHours = 55;
             int wage = 70;
-            int salary = weeklyHours * wage;
+            int salary = 40 * wage;
             Employee e = new Employee();
 
-            string notExpected = String.Format("\nThis ANGRY EMPLOYEE worked {0} hrs. " +
+            string notExpected = String.Format("Problem 1 - This ANGRY EMPLOYEE worked {0} hrs. " +
                               "Paid for 40 hrs at $ {1}" +
-                              "/hr = ${2} \n", weeklyHours, wage, salary);
+                              "/hr = ${2}", weeklyHours, wage, salary);
 
             // Act
             string actual = e.CalculateWeeklySalary(weeklyHours, wage);
@@ -76,9 +76,9 @@ namespace PolymorphismTestProject
             int salary = weeklyHours * wage;
             Contractor c = new Contractor();
 
-            string notExpected = String.Format("\nThis HAPPY CONTRACTOR worked {0} hrs. " +
+            string notExpected = String.Format("Problem 2 - This HAPPY CONTRACTOR worked {0} hrs. " +
                               "Paid for {0} hrs at $ {1}" +
-                              "/hr = ${2} ", weeklyHours, wage, salary);
+                              "/hr = ${2}", weeklyHours, wage, salary);
 
             // Act
             string actual = c.CalculateWeeklySalary(weeklyHours, wage);

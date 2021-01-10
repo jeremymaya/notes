@@ -52,11 +52,13 @@ public class Contractor : Employee
 
 ## Add a Failing Test
 
-Another set of test that can be done would be to confirm some values are not equal and if that's the intent of the test, then it should pass when it's false.
+"Another set of test that can be done would be to confirm some values are not equal and if that's the intent of the test, then it should pass when it's false."
 
 ---
 
 ## Update Test to Pass
+
+"Keep in mind that as we write test, the depth of levels of test cases that we write is fairly subjective and depends on what makes sense for you or your team."
 
 ---
 
