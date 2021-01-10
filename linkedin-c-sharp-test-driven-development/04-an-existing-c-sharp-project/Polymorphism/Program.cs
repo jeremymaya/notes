@@ -1,37 +1,40 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Threading;
 
 namespace Polymorphism
 {
     public class Employee
     {
-        public virtual void CalculateWeeklySalary(int weeklyHours, int wage)
+        public virtual string CalculateWeeklySalary(int weeklyHours, int wage)
         {
             var salary = 40 * wage;
-            Console.WriteLine("\nThis ANGRY EMPLOYEE worked {0} hrs. " + 
+            string result = String.Format("\nThis ANGRY EMPLOYEE worked {0} hrs. " +
                               "Paid for 40 hrs at $ {1}" +
                               "/hr = ${2} \n", weeklyHours, wage, salary);
+            Console.WriteLine("\n" + result + " \n");
             Console.WriteLine("---------------------------------------------\n");
+
+            return result;
         }
     }
 
     public class Contractor : Employee
     {
-        public override void CalculateWeeklySalary(int weeklyHours, int wage)
+        public override string CalculateWeeklySalary(int weeklyHours, int wage)
         {
             var salary = weeklyHours * wage;
-            Console.WriteLine("\nThis HAPPY CONTRACTOR worked {0} hrs. " + 
+            string result = String.Format("\nThis HAPPY CONTRACTOR worked {0} hrs. " +
                               "Paid for {0} hrs at $ {1}" +
                               "/hr = ${2} ", weeklyHours, wage, salary);
+            Console.WriteLine("\n" + result + " \n");
             Console.WriteLine("---------------------------------------------\n");
+
+            return result;
         }
     }
 
-
     public class Program
     {
-
         private static void Main(string[] args)
         {
             const int hours = 55, wage = 70;
@@ -51,5 +54,4 @@ namespace Polymorphism
             return everyone;
         }
     }
-
 }

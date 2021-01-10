@@ -52,6 +52,8 @@ public class Contractor : Employee
 
 ## Add a Failing Test
 
+Another set of test that can be done would be to confirm some values are not equal and if that's the intent of the test, then it should pass when it's false.
+
 ---
 
 ## Update Test to Pass
