@@ -7,8 +7,6 @@
 * [Add Tests to an Existing C# Project](#add-tests-to-an-existing-c-project)
 * [Add a Failing Test](#add-a-failing-test)
 * [Update Test to Pass](#refactor-test-to-pass)
-* [Refactor Code](#refactor-code)
-* [Use Moq to Test Data](#use-moq-to-test-data)
 * [References](#references)
 
 ---
@@ -62,14 +60,7 @@ public class Contractor : Employee
 
 ---
 
-## Refactor Code
-
----
-
-## Use Moq to Test Data
-
----
-
 ## References
 
 * [LinkedIn Learning - C# Test Driven Development](https://www.linkedin.com/learning/c-sharp-test-driven-development-2)
+* [Microsoft - Testing with a mocking framework](https://docs.microsoft.com/en-us/ef/ef6/fundamentals/testing/mocking)

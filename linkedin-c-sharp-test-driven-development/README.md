@@ -32,3 +32,5 @@ Notes taken during C# Test Driven Development from LinkedIn Learning.
 ## References
 
 * [LinkedIn Learning - C# Test Driven Development](https://www.linkedin.com/learning/c-sharp-test-driven-development-2)
+* [Microsoft - Unit testing C# with MSTest and .NET Core](https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-mstest)
+* [Microsoft - Unit testing best practices with .NET Core and .NET Standard](https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices)

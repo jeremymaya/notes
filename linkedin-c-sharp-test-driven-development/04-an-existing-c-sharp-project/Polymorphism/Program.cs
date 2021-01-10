@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Moq;
 
 namespace Polymorphism
 {
@@ -8,7 +9,13 @@ namespace Polymorphism
         private static void Main(string[] args)
         {
             const int hours = 55, wage = 70;
-            List<Employee> employees = Utils.GetEmployees();
+            //List<Employee> employees = Utils.GetEmployees();
+
+            var mock = new Mock<Utils>();
+            mock.Setup(m => m.GetMockEmployees()).Returns(() =>
+                new List<Employee> { new Contractor(), new Employee() });
+
+            List<Employee> employees = mock.Object.GetMockEmployees();
 
             foreach (var e in employees)
             {
@@ -48,14 +55,19 @@ namespace Polymorphism
     }
 
     // Enforcing Single Responsibility Principles
-    public static class Utils
+    public class Utils
     {
-        public static List<Employee> GetEmployees()
+        //public static List<Employee> GetEmployees()
+        //{
+        //    var someEmployee = new Employee();
+        //    var someContractor = new Contractor();
+        //    var everyone = new List<Employee> { someEmployee, someContractor };
+        //    return everyone;
+        //}
+
+        public virtual List<Employee> GetMockEmployees()
         {
-            var someEmployee = new Employee();
-            var someContractor = new Contractor();
-            var everyone = new List<Employee> { someEmployee, someContractor };
-            return everyone;
+            throw new NotImplementedException();
         }
     }
 }
